@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lightyear_designregular';
+    
+}
+
+.menucontent {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
+
+/* .hide {
+    display: none;
+} */
+
+.icon {
+    width: 30px;
+    margin: 10px 0px 0px 10px;
+}
+
+div.menucontent {
+    margin: 0 auto;
+    font-family: 'planet_kosmosregular';
+    width: 400px;
+    
+}
+
+.menucontent li {
+    margin: 0 auto;
+    color: green;
+    list-style: none;
+    background: navy;
+    padding: 50px;
+    font-family: 'lightyear_designregular';
+   
+    
+}
+
+.menucontent a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+   
+   
+}
+
+.main {
+    font-family: 'lightyear_designregular';
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+.main .heading {
+   margin-top: 50px;
+}
+
+.js:hover {
+    color: green;
+}
+
+.designheading:hover {
+    color: blue;
+}
+
+@font-face {
+    font-family: 'lightyear_designregular';
+    src: url('lightyear/lightyear_design-webfont.woff2') format('woff2'),
+         url('lightyear/lightyear_design-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media only screen and (min-width: 768px) {
+    div.menucontent {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* ABOUT PAGE */
+
+.aboutcontent {
+    text-align: center;
+    
+}
+
+.aboutheading {
+    margin: 1rem;
+}
+
